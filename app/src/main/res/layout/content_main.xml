@@ -7,9 +7,10 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/editAnotacao"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:autofillHints=""
         android:background="@color/cor_fundo_caixa_de_texto"
         android:ems="10"
         android:gravity="start|top"
@@ -17,8 +18,10 @@
         android:inputType="textMultiLine"
         android:padding="16dp"
         android:singleLine="false"
+        android:textColorHint="#2E7D32"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,VisualLintTextFieldSize" />
 </androidx.constraintlayout.widget.ConstraintLayout>
